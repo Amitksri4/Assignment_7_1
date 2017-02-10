@@ -1,0 +1,9 @@
+// Create Database as "OnLineBooks"
+
+Create DATABASE OnLineBooks;
+
+//Create Table "Books"
+
+Create table Books(
+title varchar(50),author varchar(50),Publisher varchar(50),
+Publication_Year int,Price float)

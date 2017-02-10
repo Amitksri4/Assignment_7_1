@@ -1,0 +1,16 @@
+//Write all the queries in JDBC code to insert, update and delete book records.
+
+//Insert Query :
+
+insert into table Books values('Java','Ram','Shankar',2017,300)
+
+//Update Query
+
+update  Books
+set Year=2016
+where Author='Ram'
+
+//delete Query
+
+delete from Book
+where Year=2016
